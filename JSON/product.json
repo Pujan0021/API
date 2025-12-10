@@ -1,0 +1,246 @@
+{
+  "status":"success",
+    "products": [
+      {
+        "id": 1,
+        "name": "iPhone 15 Pro",
+        "brand": "Apple",
+        "price": 1199,
+        "stock": 15,
+        "specs": {
+          "ram": "8GB",
+          "storage": "256GB",
+          "color": "Silver"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Samsung Galaxy S24 Ultra",
+        "brand": "Samsung",
+        "price": 1099,
+        "stock": 20,
+        "specs": {
+          "ram": "12GB",
+          "storage": "512GB",
+          "color": "Black"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Google Pixel 9",
+        "brand": "Google",
+        "price": 899,
+        "stock": 12,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "White"
+        }
+      },
+      {
+        "id": 4,
+        "name": "OnePlus 12",
+        "brand": "OnePlus",
+        "price": 799,
+        "stock": 18,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Green"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Xiaomi 14 Pro",
+        "brand": "Xiaomi",
+        "price": 699,
+        "stock": 25,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Blue"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Realme GT 6",
+        "brand": "Realme",
+        "price": 599,
+        "stock": 30,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "Yellow"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Oppo Find X7",
+        "brand": "Oppo",
+        "price": 749,
+        "stock": 22,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Purple"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Vivo X100",
+        "brand": "Vivo",
+        "price": 699,
+        "stock": 28,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Orange"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Motorola Edge 50",
+        "brand": "Motorola",
+        "price": 649,
+        "stock": 16,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "Gray"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Sony Xperia 1 VI",
+        "brand": "Sony",
+        "price": 999,
+        "stock": 10,
+        "specs": {
+          "ram": "12GB",
+          "storage": "512GB",
+          "color": "Black"
+        }
+      },
+      {
+        "id": 11,
+        "name": "Huawei Mate 60 Pro",
+        "brand": "Huawei",
+        "price": 899,
+        "stock": 14,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Silver"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Nokia XR30",
+        "brand": "Nokia",
+        "price": 499,
+        "stock": 35,
+        "specs": {
+          "ram": "6GB",
+          "storage": "128GB",
+          "color": "Blue"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Asus ROG Phone 8",
+        "brand": "Asus",
+        "price": 1099,
+        "stock": 12,
+        "specs": {
+          "ram": "16GB",
+          "storage": "512GB",
+          "color": "Black"
+        }
+      },
+      {
+        "id": 14,
+        "name": "Lenovo Legion Y90",
+        "brand": "Lenovo",
+        "price": 899,
+        "stock": 18,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Gray"
+        }
+      },
+      {
+        "id": 15,
+        "name": "Honor Magic 6",
+        "brand": "Honor",
+        "price": 799,
+        "stock": 20,
+        "specs": {
+          "ram": "12GB",
+          "storage": "256GB",
+          "color": "Green"
+        }
+      },
+      {
+        "id": 16,
+        "name": "ZTE Axon 50",
+        "brand": "ZTE",
+        "price": 699,
+        "stock": 24,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "White"
+        }
+      },
+      {
+        "id": 17,
+        "name": "Micromax Infinity N12",
+        "brand": "Micromax",
+        "price": 399,
+        "stock": 40,
+        "specs": {
+          "ram": "4GB",
+          "storage": "64GB",
+          "color": "Black"
+        }
+      },
+      {
+        "id": 18,
+        "name": "Infinix Zero Ultra",
+        "brand": "Infinix",
+        "price": 499,
+        "stock": 32,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "Blue"
+        }
+      },
+      {
+        "id": 19,
+        "name": "Tecno Phantom V Flip",
+        "brand": "Tecno",
+        "price": 699,
+        "stock": 15,
+        "specs": {
+          "ram": "8GB",
+          "storage": "256GB",
+          "color": "Pink"
+        }
+      },
+      {
+        "id": 20,
+        "name": "Redmi Note 13 Pro",
+        "brand": "Xiaomi",
+        "price": 499,
+        "stock": 50,
+        "specs": {
+          "ram": "8GB",
+          "storage": "128GB",
+          "color": "Blue"
+        }
+      }
+    ]
+  
+}
