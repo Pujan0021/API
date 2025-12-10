@@ -4,17 +4,30 @@ let port = 8000;
 let fs = require('fs');
 
 let readJsonFile = fs.readFileSync('../JSON/product.json', 'utf-8'); // returns a string 
-let product = JSON.parse(readJsonFile); // converting dtring into JSON format
+let products = JSON.parse(readJsonFile);
+// console.log(products)
 
 app.get('/api/products', (req, res) => {
-    res.json(product);
+    res.json(products);
 });
 app.use(express.json());
 app.post('/api/products', (req, res) => {
-    let data = req.body;
-    console.log('Data', data);
-    res.status(200).json({ "message": 'SuccessFully The Data is Received', "Data": data });
+    let newProduct = req.body;
+    products.products.push(newProduct);
+    // console.log(newProduct);
+    fs.writeFileSync('../JSON/product.json', JSON.stringify(products, null, 2), 'utf-8');
+    res.status(201).json({
+        status: "success",
+        products: products
+    });
 });
+
+
+
+
+
+
+
 app.listen(port, () => {
     console.log('...............Server Created........');
 })
