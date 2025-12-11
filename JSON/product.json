@@ -242,14 +242,61 @@
       }
     },
     {
-      "id": 101,
-      "name": "Test Phone",
+      "id": 21,
       "price": 500
     },
     {
-      "id": 101,
-      "name": "Test Phone",
+      "id": 22,
+      "name": "Samsung",
       "price": 500
+    },
+    {
+      "id": 23,
+      "name": "Redmi Note 14 Pro",
+      "brand": "Xiaomi",
+      "price": 6777,
+      "stock": 50,
+      "specs": {
+        "ram": "8GB",
+        "storage": "128GB",
+        "color": "Blue"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Redmi Note 14 Pro",
+      "brand": "Xiaomi",
+      "price": 6777,
+      "stock": 50,
+      "specs": {
+        "ram": "8GB",
+        "storage": "128GB",
+        "color": "Blue"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Redmi Note 14 Pro",
+      "brand": "Xiaomi",
+      "price": 6777,
+      "stock": 50,
+      "specs": {
+        "ram": "8GB",
+        "storage": "128GB",
+        "color": "Blue"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Redmi Note 14 Pro",
+      "brand": "Xiaomi",
+      "price": 6777,
+      "stock": 50,
+      "specs": {
+        "ram": "8GB",
+        "storage": "128GB",
+        "color": "Blue"
+      }
     }
   ]
 }
