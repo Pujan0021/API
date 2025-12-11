@@ -72,7 +72,21 @@ app.delete('/api/products/:id', (req, res) => {
         });
     })
 })
-
+// get element by id
+app.get('/api/products/:id', (req, res) => {
+    let id = parseInt(req.params.id);
+    let getElementById = products.products.find(item => item.id == id);
+    if (!getElementById) {
+        return res.status(400).json({
+            status: "failed",
+            message: "An Error Occured!, No product to show.."
+        })
+    }
+    res.status(200).json({
+        status: "success",
+        products: getElementById
+    });
+});
 
 
 app.listen(port, () => {
