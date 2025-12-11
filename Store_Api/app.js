@@ -47,6 +47,32 @@ app.post('/api/products', (req, res) => {
 
 // delete method
 
+app.delete('/api/products/:id', (req, res) => {
+    let deleteId = parseInt(req.params.id);
+    const productId = products.products.findIndex(item => item.id === deleteId);
+    console.log(productId)
+    if (productId === -1) {
+        return res.status(400).json({
+            status: "failed",
+            message: "An Error Occured!, No product to show.."
+        })
+    }
+    const deletedProduct = products.products.splice(productId, 1);// delete the product match with the param(:id);
+    console.log(deletedProduct)
+    fs.writeFile('../JSON/product.json', JSON.stringify(products, null, 2), (err) => {
+        if (err) {
+            return res.status(400).json({
+                status: "failed",
+                message: "An Error Occured!, No product to show.."
+            })
+        }
+        res.status(204).json({
+            status: "success",
+            products: products
+        });
+    })
+})
+
 
 
 app.listen(port, () => {
