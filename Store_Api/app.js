@@ -88,6 +88,34 @@ app.get('/api/products/:id', (req, res) => {
     });
 });
 
+//patch method
+app.patch('/api/products/:id', (req, res) => {
+    let id = parseInt(req.params.id);
+    let productToUpdate = products.products.find(item => item.id === id);
+    if (!productToUpdate) {
+        return res.status(400).json({
+            status: "failed",
+            message: "An Error Occured!, No product to show.."
+        })
+    }
+    let productIndex = products.products.indexOf(productToUpdate);
+    products.products[productIndex] = productToUpdate;
+    Object.assign(productToUpdate, req.body);
+
+    fs.writeFile('../JSON/product.json', JSON.stringify(products, null, 2), (err) => {
+        if (err) {
+            return res.status(400).json({
+                status: "failed",
+                message: "An Error Occured!, No product to show.."
+            })
+        }
+        res.status(200).json({
+            status: "success",
+            products: productToUpdate
+        });
+    })
+
+})
 
 app.listen(port, () => {
     console.log('...............Server Created........');
